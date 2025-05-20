@@ -1,0 +1,68 @@
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# IDE Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.phpstorm.meta.php
+_ide_helper.php
+
+# Environment Files
+.env
+.env.backup
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependency Directories
+/vendor/
+/node_modules/
+
+# Laragon specific
+/.vagrant
+.phpunit.result.cache
+
+# Cache and logs
+/cache/
+/logs/
+/temp/
+error_log
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Private files
+/uploads/private/
+config.php
+database.php

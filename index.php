@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahendra Mahara | Portfolio Website</title>
+    <meta name="description" content="Mahendra Mahara is a Full Stack Developer specializing in MERN stack technologies and system design.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css?v=2">
+    <link rel="stylesheet" href="css/responsive-fixes.css?v=2">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body class="dark-mode">
+
+    <div class="theme-switcher">
+        <i class="fas fa-sun"></i>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container">
+
+        <!-- Aside -->
+        <div class="aside">
+            <div class="logo">
+                <a href="#home" aria-label="Go to home page"><span>Port</span>folio</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://facebook.com/mahendramahara15" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/mahendramahara0" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/in/mahendramahara" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/mahendramahara" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+            <!-- Home -->
+            <section class="home section active" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info">
+                            <h3 class="hello">Hello, It's <span class="name">Mahendra Mahara</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">Full Stack Developer</span></h3>
+                            <p>Passionate Full Stack Developer who loves turning ideas into real, usable systems. I work mostly with the JavaScript's MERN stack to build smooth, user-friendly experiences that just make sense. Whether it’s designing clean system logic or bringing it all together on the screen, I enjoy every step of the process.</p>
+                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img">
+                            <img src="./uploads/images/main.jpg" alt="Mahendra Mahara" class="profile-img">
+                        </div>
+                    </div>
+                    <div class="msk-skills-section">
+                        <div class="msk-skills-title">Main Focus Skills</div>
+                        <div class="msk-skills-grid">
+                            <div class="msk-skill-box">
+                                <i class="fas fa-sitemap" style="font-size: 38px; color: var(--primary-color); margin-bottom: 8px;"></i>
+                                <span>System Design</span>
+                            </div>
+                            <div class="msk-skill-box">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="msk-skill-box">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="msk-skill-box">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js">
+                                <span>Express.js</span>
+                            </div>
+                            <div class="msk-skill-box">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js">
+                                <span>React.js</span>
+                            </div>
+                            <div class="msk-skill-box">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                                <span>Node.js</span>
+                            </div>
+                            <div class="msk-skill-box">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                                <span>Git</span>
+                            </div>
+                            <div class="msk-skill-box">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                                <span>GitHub</span>
+                            </div>
+                            <div class="msk-skill-box">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                                <span>Docker</span>
+                            </div>
+                            <div class="msk-skill-box">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="msk-skill-box">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman">
+    <span>Postman</span>
+</div>
+
+<div class="msk-skill-box">
+    <img src="https://img.icons8.com/color/96/api-settings.png" alt="REST API">
+    <span>REST API</span>
+</div>
+
+<div class="msk-skill-box">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+    <span>HTML</span>
+</div>
+
+<div class="msk-skill-box">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+    <span>CSS</span>
+</div>
+
+                            <div class="msk-skill-box">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux">
+                                <span>Redux</span>
+                            </div>
+                            <div class="msk-skill-box">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt="GraphQL">
+                                <span>GraphQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content">
+                            <div class="row">
+                                <div class="about-text">
+                                    <h3>I'm Mahendra Mahara, <br /><span class="highlight">Full Stack Developer</span></h3>
+
+                                    <p>I'm a 21-year-old BCA student in my 6th semester at Tribhuvan University, driven by a passion for solving real-world problems with technology. Over the past few years, I’ve immersed myself in full-stack web development, combining logical thinking with creative design to build systems that are not only functional but also user-friendly and efficient.</p>
+
+                                    <p>My core strength lies in the JavaScript ecosystem, especially the MERN stack (MongoDB, Express, React, Node.js). I enjoy the process of designing clean architectures and bringing them to life with responsive interfaces and smooth backend logic. Along the way, I’ve also worked with .NET, Java, Python, Git, Docker, Figma, and more — always eager to learn and adapt to new tools.</p>
+
+                                    <p>Beyond the screen, I actively contribute to the Nepali tech community by organizing events, mentoring students, and sharing knowledge through groups like <a style="font-weight: bold; color: inherit;" href="https://t.me/BCATU" target="_blank" rel="noopener noreferrer">BCATU</a>. I believe in collaboration, continuous learning, and using technology to create simple solutions that make everyday life better.</p>
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="personal-info">
+                                    <div class="row">
+                                        <div class="info-item">
+                                            <p>Age : <span>21</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Degree : <span>BCA (Pursuing)</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>City : <span>Kathmandu</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Country : <span>Nepal</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Freelance : <span>Available</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Phone : <span>+123 456 7890</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Email : <span><a href="mailto:hi@mahendrasingh.com.np" class="email-link">hi@mahendrasingh.com.np</a></span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Website : <span><a href="https://mahendrasingh.com.np" target="_blank" class="website-link">mahendrasingh.com.np</a></span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons">
+                                            <a href="./uploads/cv/resume.pdf" class="btn" download="Mahendra_Mahara_Resume.pdf" aria-label="Download CV" rel="noopener" type="application/pdf">Download CV</a>
+                                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills">
+                                    <div class="row skills-row">
+                                        <div class="skill-item">
+                                            <h5>System Design</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>JavaScript</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 81%;"></div>
+                                                <div class="skill-percent">81%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 65%;"></div>
+                                                <div class="skill-percent">65%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 60%;"></div>
+                                                <div class="skill-percent">60%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box">
+                                            <div class="timeline">
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> Oct 2021 - Present
+                                                    </h3>
+                                                    <h4 class="timeline-title">Bachelor's in Computer Application (BCA)</h4>
+                                                    <p class="timeline-text">Studying at Tribhuvan University where I'm acquiring in-depth knowledge of software development, database management, and system architecture. The program has strengthened my analytical thinking and problem-solving abilities through practical projects and collaborative coding exercises.</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2019 - 2020
+                                                    </h3>
+                                                    <h4 class="timeline-title">Higher Secondary Education (NEB)</h4>
+                                                    <p class="timeline-text">Completed Grade 12 from Nepal's National Examination Board. Studied subjects like Sociology, Psychology, and English Literature which developed my critical thinking, communication skills, and understanding of human behavior - all valuable assets in creating user-centered digital experiences.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box">
+                                            <div class="timeline">
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2023 - Present
+                                                    </h3>
+                                                    <h4 class="timeline-title">Full Stack Developer</h4>
+                                                    <p class="timeline-text">Continuously enhancing my JavaScript expertise and adopting its ecosystem as my professional focus. Working on freelance projects through Fiverr and LinkedIn while building a portfolio of hands-on projects. Consistently looking for opportunities to solve complex problems and contribute to innovative solutions.</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2020 - 2022
+                                                    </h3>
+                                                    <h4 class="timeline-title">Content Creator & Digital Marketer</h4>
+                                                    <p class="timeline-text">Explored digital content creation through YouTube and blogging. Developed skills in video editing, thumbnail design, voice-over production, and content writing. Gained practical experience in SEO optimization, audience engagement strategies, and digital marketing fundamentals.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="msk-additional-section">
+                                <div class="msk-additional-title">I've Also Picked Up Skills In</div>
+                                <div class="msk-tag-cloud">
+                                    <span class="msk-tag"><i class="fab fa-html5"></i>HTML5</span>
+                                    <span class="msk-tag"><i class="fab fa-css3-alt"></i>CSS3</span>
+                                    <span class="msk-tag"><i class="fab fa-php"></i>PHP</span>
+                                    <span class="msk-tag"><i class="fab fa-java"></i>Java</span>
+                                    <span class="msk-tag"><i class="fab fa-microsoft"></i>C# (ASP.NET)</span>
+                                    <span class="msk-tag"><i class="fab fa-python"></i>Python</span>
+                                    <span class="msk-tag"><i class="fab fa-android"></i>Android (XML)</span>
+                                    <span class="msk-tag"><i class="fas fa-database"></i>MySQL</span>
+                                    <span class="msk-tag"><i class="fas fa-network-wired"></i>Computer Networking</span>
+                                    <span class="msk-tag"><i class="fab fa-adobe"></i>Photoshop</span>
+                                    <span class="msk-tag"><i class="fab fa-figma"></i>Figma</span>
+                                    <span class="msk-tag"><i class="fab fa-adobe"></i>Adobe XD</span>
+                                    <span class="msk-tag"><i class="fas fa-pencil-ruler"></i>UI/UX Design</span>
+                                    <span class="msk-tag"><i class="fas fa-database"></i>PostgreSQL</span>
+                                    <span class="msk-tag"><i class="fas fa-server"></i>REST APIs</span>
+                                    <span class="msk-tag"><i class="fas fa-layer-group"></i>Material UI</span>
+                                    <span class="msk-tag"><i class="fab fa-bootstrap"></i>Bootstrap</span>
+                                    <span class="msk-tag"><i class="fab fa-sass"></i>SASS/SCSS</span>
+                                    <span class="msk-tag"><i class="fas fa-sitemap"></i>System Design</span>
+                                    <span class="msk-tag"><i class="fab fa-wordpress"></i>WordPress</span>
+                                    <span class="msk-tag"><i class="fas fa-project-diagram"></i>ER Diagrams</span>
+                                    <span class="msk-tag"><i class="fas fa-network-wired"></i>System Diagrams</span>
+                                    <span class="msk-tag"><i class="fas fa-code-branch"></i>MVC Pattern</span>
+                                    <span class="msk-tag"><i class="fas fa-layer-group"></i>MVT Pattern</span>
+                                    <span class="msk-tag"><i class="fas fa-exchange-alt"></i>RMI</span>
+                                    <span class="msk-tag"><i class="fas fa-ad"></i>RPC</span>
+                                    <span class="msk-tag"><i class="fas fa-network-wired"></i>Networking</span>
+                                    <span class="msk-tag"><i class="fas fa-globe"></i>IPV4/IPV6</span>
+                                    <span class="msk-tag"><i class="fab fa-java"></i>Java Beans</span>
+                                    <span class="msk-tag"><i class="fab fa-java"></i>Servlet & JSP</span>
+                                    <span class="msk-tag"><i class="fas fa-link"></i>APIs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services -->
+            <section class="service section" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Web Development</h4>
+                                <p>Creating responsive and dynamic websites with modern technologies.</p>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Frontend Development</h4>
+                                <p>Building beautiful and interactive user interfaces using HTML, CSS, and JavaScript.</p>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-server"></i>
+                                </div>
+                                <h4>Backend Development</h4>
+                                <p>Creating robust server-side applications with PHP, Node.js, and databases.</p>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Responsive Design</h4>
+                                <p>Ensuring your website looks great on all devices - mobile, tablet, and desktop.</p>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>SEO Optimization</h4>
+                                <p>Improving your website's visibility in search engine results pages.</p>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Digital Marketing</h4>
+                                <p>Helping your business grow with effective digital marketing strategies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio -->
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading">
+                            <h2>My Projects :</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- FarmingSathi Web Project -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-inner">
+                                <div class="portfolio-img">
+                                    <a href="https://github.com/mahendramahara/FarmingSathi-Web" target="_blank">
+                                        <img src="./uploads/projects/farming-sathi.png" alt="FarmingSathi Web App" loading="lazy">
+                                    </a>
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>FarmingSathi Web</h4>
+                                    <div class="icon">
+                                        <a href="https://github.com/mahendramahara/FarmingSathi-Web" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <p>A platform that connects farmers directly with markets and recommends essential tools and equipment for different stages of crop farming.</p>
+                                    <div class="portfolio-tech">
+                                        <span class="tech-tag">React</span>
+                                        <span class="tech-tag">Node.js</span>
+                                        <span class="tech-tag">MongoDB</span>
+                                        <span class="tech-tag">Express</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Scrap-Z Web Project -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-inner">
+                                <div class="portfolio-img">
+                                    <a href="https://github.com/mahendramahara/SCRAP-Z-WEB" target="_blank">
+                                        <img src="./uploads/projects/scrap-z.jpg" alt="Scrap-Z Web Application" loading="lazy">
+                                    </a>
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Scrap-Z Web</h4>
+                                    <div class="icon">
+                                        <a href="https://github.com/mahendramahara/SCRAP-Z-WEB" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <p>A waste management platform that connects households with scrap collectors and buyers through a simple chat interface, making recycling easier and more accessible.</p>
+                                    <div class="portfolio-tech">
+                                        <span class="tech-tag">JavaScript</span>
+                                        <span class="tech-tag">MySQL</span>
+                                        <span class="tech-tag">PHP</span>
+                                        <span class="tech-tag">HTML-CSS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hotel Annapurna Web Project -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-inner">
+                                <div class="portfolio-img">
+                                    <a href="https://github.com/mahendramahara/Hotel-Annapurna-Web" target="_blank">
+                                        <img src="./uploads/projects/hotel-annapurna.png" alt="Hotel Annapurna Web" loading="lazy">
+                                    </a>
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Hotel Annapurna Web</h4>
+                                    <div class="icon">
+                                        <a href="https://github.com/mahendramahara/Hotel-Annapurna-Web" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <p>A complete hotel management system with table booking, digital menu ordering, and room reservations - making both guest experience and hotel operations smoother.</p>
+                                    <div class="portfolio-tech">
+                                        <span class="tech-tag">JavaScript</span>
+                                        <span class="tech-tag">PHP</span>
+                                        <span class="tech-tag">MySQL</span>
+                                        <span class="tech-tag">Bootstrap</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IV-Capture-Web Project -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-inner">
+                                <div class="portfolio-img">
+                                    <a href="https://github.com/mahendramahara/IV-Capture-React-API-Project-Web" target="_blank">
+                                        <img src="./uploads/projects/iv-capture.jpg" alt="IV-Capture Web" loading="lazy">
+                                    </a>
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>IV-Capture Web</h4>
+                                    <div class="icon">
+                                        <a href="https://github.com/mahendramahara/IV-Capture-React-API-Project-Web" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <p>An API-powered application that fetches, generates, and captures images and videos - showing the power of React with external API integration.</p>
+                                    <div class="portfolio-tech">
+                                        <span class="tech-tag">React</span>
+                                        <span class="tech-tag">RESTful API</span>
+                                        <span class="tech-tag">JavaScript</span>
+                                        <span class="tech-tag">CSS3</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Super Sangati App Project -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-inner">
+                                <div class="portfolio-img">
+                                    <a href="https://github.com/mahendramahara/Super-Sangati-App" target="_blank">
+                                        <img src="./uploads/projects/super-sangati.jpg" alt="Super Sangati App" loading="lazy">
+                                    </a>
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Super Sangati App</h4>
+                                    <div class="icon">
+                                        <a href="https://github.com/mahendramahara/Super-Sangati-App" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <p>A privacy-focused messaging app that automatically deletes chats after 24 hours, built with real-time Firebase database for instant communication.</p>
+                                    <div class="portfolio-tech">
+                                        <span class="tech-tag">Java</span>
+                                        <span class="tech-tag">XML</span>
+                                        <span class="tech-tag">Firebase</span>
+                                        <span class="tech-tag">Mobile App</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Result Management System Web -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-inner">
+                                <div class="portfolio-img">
+                                    <a href="https://github.com/mahendramahara/Result-Management-System-Web" target="_blank">
+                                        <img src="./uploads/projects/result-management-system.png" alt="Result Management System" loading="lazy">
+                                    </a>
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Result Management System</h4>
+                                    <div class="icon">
+                                        <a href="https://github.com/mahendramahara/Result-Management-System-Web" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <p>A streamlined solution for schools and colleges to manage, calculate, and publish student results, making academic administration simpler.</p>
+                                    <div class="portfolio-tech">
+                                        <span class="tech-tag">PHP</span>
+                                        <span class="tech-tag">MySQL</span>
+                                        <span class="tech-tag">JavaScript</span>
+                                        <span class="tech-tag">Bootstrap</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="contact-intro">
+                            <h3 class="contact-question">Have You Any Questions?</h3>
+                            <p class="contact-statement">I'M AT YOUR SERVICES</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Me On</h4>
+                            <p>+123 456 7890</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Office</h4>
+                            <p>Kathmandu, Nepal</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:hi@mahendrasingh.com.np" class="email-link">hi@mahendrasingh.com.np</a></p>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p><a href="https://mahendrasingh.com.np" target="_blank" class="website-link">mahendrasingh.com.np</a></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="contact-intro">
+                            <h3 class="contact-question">SEND ME AN EMAIL</h3>
+                            <p class="contact-statement">I'M VERY RESPONSIVE TO MESSAGES</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="contact-form">
+                            <div id="contact-message"></div>
+                            <div class="row">
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <input type="text" id="name" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <input type="email" id="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12">
+                                    <div class="form-group">
+                                        <input type="text" id="subject" class="form-control" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12">
+                                    <div class="form-group">
+                                        <textarea id="message" class="form-control" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12">
+                                    <button type="button" id="contact-submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-30">
+                        <div class="contact-social">
+                            <h4>You can also contact me from:</h4>
+                            <div class="social-links-contact">
+                                <a href="https://facebook.com/mahendramahara15" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/mahendramahara0" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://linkedin.com/in/mahendramahara" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://github.com/mahendramahara" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://t.me/mahendramahara" target="_blank"><i class="fab fa-telegram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Copyright Footer -->
+                    <div class="row">
+                        <div class="copyright-footer">
+                            <p>Mahendra Mahara &copy; 2025 All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="js/script.js?v=2"></script>
+</body>
+
+</html>

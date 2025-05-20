@@ -1,0 +1,229 @@
+/* Responsive fixes for the portfolio website */
+
+/* Fix for About section buttons on mobile */
+@media (max-width: 767px) {
+    .personal-info .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .personal-info .buttons .btn {
+        margin-right: 0 !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+
+    .contact-form .form-item {
+        margin-bottom: 20px;
+    }
+}
+
+/* Medium screens adjustments */
+@media (min-width: 768px) and (max-width: 991px) {
+    .personal-info .buttons .btn {
+        margin-right: 10px !important;
+    }
+}
+
+/* Small Phone Screens (under 400px) */
+@media (max-width: 400px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .section .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .section-title h2 {
+        font-size: 32px;
+    }
+    
+    .home-info .hello {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    
+    .home-info .name {
+        font-size: 28px;
+    }
+    
+    .home-info .my-profession {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+    
+    .home-info p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    
+    .btn {
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+    
+    .msk-skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+    
+    .msk-skill-box {
+        padding: 6px 5px;
+    }
+    
+    .msk-skill-box img {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 6px;
+    }
+    
+    .msk-skill-box span {
+        font-size: 9px;
+    }
+    
+    .portfolio-tech {
+        gap: 4px;
+    }
+    
+    .tech-tag {
+        font-size: 9px;
+        padding: 2px 6px;
+    }
+    
+    .portfolio-item-inner .portfolio-info h4 {
+        font-size: 14px;
+    }
+    
+    .portfolio-item-inner .portfolio-desc p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    
+    .contact-form {
+        padding: 20px 15px;
+    }
+    
+    .contact-info-item {
+        padding: 15px 10px;
+        min-height: auto;
+    }
+    
+    .contact-info-item .icon {
+        height: 50px;
+        width: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .contact-info-item .icon i {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    
+    .contact-info-item h4 {
+        font-size: 16px;
+        margin: 10px 0 5px;
+    }
+    
+    .contact-info-item p {
+        font-size: 14px;
+    }
+    
+    .contact-form .form-control:focus {
+        box-shadow: 0 0 8px rgba(74, 108, 247, 0.2);
+    }
+    
+    .contact-question {
+        font-size: 18px;
+    }
+    
+    .contact-statement {
+        font-size: 12px;
+    }
+    
+    .aside .nav li a {
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+    
+    .aside .nav-toggler {
+        height: 35px;
+        width: 40px;
+    }
+}
+
+/* Larger phone screens (401px - 575px) */
+@media (min-width: 401px) and (max-width: 575px) {
+    .contact-form {
+        padding: 25px;
+    }
+    
+    .contact-form .form-control {
+        padding: 10px 20px;
+    }
+    
+    .msk-skills-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .section .container {
+        padding-top: 50px;
+    }
+}
+
+/* Fix for iOS input zoom */
+@media screen and (max-width: 767px) {
+    input, select, textarea {
+        font-size: 16px !important;
+    }
+    
+    .form-control {
+        -webkit-appearance: none;
+        border-radius: 25px !important;
+    }
+}
+
+/* Desktop Layout Improvements */
+@media (min-width: 1200px) {
+    .aside {
+        padding-top: 15px;
+    }
+    
+    .home .container {
+        padding-top: 25px;
+    }
+    
+    .home .row:first-child {
+        margin-top: 0;
+    }
+    
+    .home-info .hello {
+        margin-top: 5px;
+    }
+    
+    .section-title h2 {
+        margin-top: 0;
+    }
+    
+    .msk-skills-section {
+        margin-top: 30px;
+    }
+    
+    .about .about-content, 
+    .service .service-item, 
+    .portfolio .portfolio-heading,
+    .contact .contact-intro {
+        margin-top: 10px;
+    }
+    
+    .contact-form {
+        margin-top: 15px;
+    }
+}

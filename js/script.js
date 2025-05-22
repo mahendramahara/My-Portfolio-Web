@@ -243,13 +243,13 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             // Create mailto link with form data
-            const mailtoLink = `mailto:hi@mahendrasingh.com.np?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message)}`;
+            const mailtoLink = `mailto:info@iammahendra.tech?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message)}`;
             
             // Open default email client
             window.location.href = mailtoLink;
             
             // Show success message
-            showMessage('Opening your email client. If it doesn\'t open automatically, please manually send your message to hi@mahendrasingh.com.np', 'success');
+            showMessage('Opening your email client. If it doesn\'t open automatically, please manually send your message to info@iammahendra.tech', 'success');
             
             // Clear form
             document.getElementById('name').value = '';
